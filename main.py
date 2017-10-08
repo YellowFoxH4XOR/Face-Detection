@@ -19,5 +19,5 @@ while 1:
         k = cv2.waitKey(30) & 0xff
         if k == 27:
             break
-cap.release()
+cap.release() #relese VideoCapture
 cv2.destroyAllWindows()
